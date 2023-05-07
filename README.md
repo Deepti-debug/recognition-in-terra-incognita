@@ -72,7 +72,7 @@
 
 ### Domain Generalization Experiments on TerraIncognita:
 
-- First we train the models with our ERM_SMA protocol.
+- First we train the models with ERM_SMA protocol.
 - run_erm_sma.sh bash script first trains the models using ERM_SMA protocol and then takes the ensemble of these models to give the final test accuracy.
 - If you only need the training of the models comment the 3rd and 4th python commands in the script. The 3rd and 4th python commands perform EoA and gets the final test accuracy. 1st and 2nd python commands perform ERM,ERM_SMA protocol for training the models.
 
