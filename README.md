@@ -28,6 +28,16 @@
 
 - For training and evaluation, use the same steps as **Experiment 1**
 
+### Detection via Faster RCNN with  Inception-Resnet-V2 backbone:
+
+**Experiment 3:**
+
+- Data distribution: same as **Experiment 1**
+
+**Experiment 4:**
+
+- Data distribution: same as **Experiment 2**
+
 ## 🔗 Detection Resources
 - [Train Tensorflow COCO API](https://www.youtube.com/watch?v=XoMiveY_1Z4&t=102s&ab_channel=KrishNaik) 
 - [Tensorflow 2.0 model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
