@@ -1,0 +1,2 @@
+The trained models are in my repo in ADA. 
+"/share3/girmaji08/rerm-sma_resnet50" is the path to the folder that contains best trained models for each domain for only one trail.
