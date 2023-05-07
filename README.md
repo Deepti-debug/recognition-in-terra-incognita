@@ -1,5 +1,36 @@
 # recognition_in_terra_incognita
 
+### Classification via Inception-v3
+
+**Experiment 1**
+- Data distribution
+    - **Train**: train_annotations
+    - **Val**: cis_val_annotation
+    - **Test**: cis_test_annotations
+ - Use the training images as they are to train the model. 
+
+**Experiment 2**
+- Data distribution
+    - **Train**: train_annotations
+    - **Val**: cis_val_annotation
+    - **Test**: cis_test_annotations
+ - Crop the images the dataset with respect to the dimensions given the annotations file and then run the model on cis-locations. 
+
+**Experiment 3**
+- Data distribution
+    - **Train**: train_annotations
+    - **Val**: trans_val_annotation
+    - **Test**: trans_test_annotations
+ - Use the training images as they are to train the model. 
+
+**Experiment 4**
+- Data distribution
+    - **Train**: train_annotations
+    - **Val**: trans_val_annotation
+    - **Test**: trans_test_annotations
+ - Crop the images the dataset with respect to the dimensions given the annotations file and then run the model on trans-locations. 
+
+
 ### Detection via Faster RCNN with ResNet-101 backbone:
 
 **Experiment 1:**
@@ -9,11 +40,12 @@
     - **Val**: cis_val_annotations
     - **Test**: cis_test_annotations
 
+
 - [Install the necessary requirements to train the model](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-models-install-coco)
 
 - [Train the object detection model on custom data](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html)
 
-- Monitor training job progress using tensorboard <br />
+- Monitor training job progress using tensorboard
     `tensorboard --logdir=models/my_faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8`
 
 - [Export the trained model once training completes](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#exporting-a-trained-model)
