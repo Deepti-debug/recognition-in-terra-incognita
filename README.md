@@ -70,6 +70,14 @@
 
 - Data distribution: same as **Experiment 2**
 
+### Domain Generalization Experiments on TerraIncognita:
+
+- First we train the models with our ERM_SMA protocol.
+- run_erm_sma.sh bash script first trains the models using ERM_SMA protocol and then takes the ensemble of these models to give the final test accuracy.
+- If you only need the training of the models comment the 3rd and 4th python commands in the script. The 3rd and 4th python commands perform EoA and gets the final test accuracy. 1st and 2nd python commands perform ERM,ERM_SMA protocol for training the models.
+
+
+
 ## 🔗 Detection Resources
 - [Train Tensorflow COCO API](https://www.youtube.com/watch?v=XoMiveY_1Z4&t=102s&ab_channel=KrishNaik) 
 - [Tensorflow 2.0 model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
