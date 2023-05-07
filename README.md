@@ -78,7 +78,7 @@
 - Then we get the final test accuracy using Ensemble of Averages(EoA) for the above trained models.
 - run_erm_sma.sh bash script first trains the models using ERM_SMA protocol and then takes the ensemble of these models to give the final test accuracy.
 - If you only need the training of the models comment the 3rd and 4th python commands in the script. The 3rd and 4th python commands perform EoA and gets the final test accuracy. 1st and 2nd python commands perform ERM,ERM_SMA protocol for training the models.
-
+- You can find the path to the trained models for each domain using only one trial. The experiments are conducted for more trials but due to space issues only models trained for 1 trail are put on my ADA share3 folder. You can get the test accuracy by running thr bash script with the 4th python command by giving out_dir with this trained models directory. The data_dir can also be found on /share3/girmaji08/terra_incognita for these experiments.
 
 
 ## 🔗 Detection Resources
