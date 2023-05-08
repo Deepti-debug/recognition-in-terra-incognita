@@ -12,23 +12,9 @@
 **Experiment 2**
 - Data distribution
     - **Train**: train_annotations
-    - **Val**: cis_val_annotation
-    - **Test**: cis_test_annotations
- - Crop the images the dataset with respect to the dimensions given the annotations file and then run the model on cis-locations. 
-
-**Experiment 3**
-- Data distribution
-    - **Train**: train_annotations
     - **Val**: trans_val_annotation
     - **Test**: trans_test_annotations
  - Use the training images as they are to train the model. 
-
-**Experiment 4**
-- Data distribution
-    - **Train**: train_annotations
-    - **Val**: trans_val_annotation
-    - **Test**: trans_test_annotations
- - Crop the images the dataset with respect to the dimensions given the annotations file and then run the model on trans-locations. 
 
 
 ### Detection via Faster RCNN with ResNet-101 backbone:
