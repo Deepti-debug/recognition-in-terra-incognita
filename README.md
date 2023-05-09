@@ -16,7 +16,6 @@
     - **Test**: trans_test_annotations
  - Use the training images as they are to train the model. 
 
-
 ## Detection via Faster RCNN with ResNet-101 backbone:
 - This ReadMe contains high-level info on Detection model, for in-depth information, go to the **Detection-Faster-RCNN** directory and take a look at the ReadMe in that folder. 
 
@@ -34,7 +33,6 @@
 
 - [Export the trained model once training completes](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#exporting-a-trained-model)
 
-
 **Experiment 2:**
 - Data distribution:
     - **Train**: train_annotations
@@ -44,7 +42,6 @@
 - For training and evaluation, use the same steps as **Experiment 1**
 
 ## Detection via Faster RCNN with  Inception-Resnet-V2 backbone:
-
 **Experiment 3:**
 - Data distribution: same as **Experiment 1**
 
