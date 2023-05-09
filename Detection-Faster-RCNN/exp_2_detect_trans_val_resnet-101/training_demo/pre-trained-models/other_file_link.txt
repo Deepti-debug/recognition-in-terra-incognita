@@ -1,6 +1,0 @@
-This folder has the pre-trained model that we used with the name 'faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8', that can be found in the given link:
-
-Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EoA23R5hz8ZEp7SvoIae0bwBB44UXy9JqL9kUhbio_9BwA?e=tRg2Gs  
-
-The model has been downloaded from the 'Tensorflow 2 Detection Model Zoo':
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
