@@ -67,7 +67,7 @@
 
 - For training and evaluation, inspiration is drawn from https://github.com/ultralytics/yolov5 
 
-### Domain Generalization Experiments on TerraIncognita:
+## Domain Generalization Experiments on TerraIncognita:
 
 - The experiments are performed on only a subset of the TerraIncognita Dataset.Images part of 4 locations/domains L100,L38,L43,L46.  The models are trained/validated on 3 domains and tested on the remaining domain. 
 - First install virtual environment using DG_env_requirements.txt file.
