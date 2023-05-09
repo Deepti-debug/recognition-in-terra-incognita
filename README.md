@@ -3,14 +3,14 @@
 ## Classification via Inception-v3
 
 **Experiment 1**
-- Data distribution
+- Data distribution:
     - **Train**: train_annotations
     - **Val**: cis_val_annotation
     - **Test**: cis_test_annotations
  - Use the training images as they are to train the model. 
 
 **Experiment 2**
-- Data distribution
+- Data distribution:
     - **Train**: train_annotations
     - **Val**: trans_val_annotation
     - **Test**: trans_test_annotations
@@ -18,11 +18,9 @@
 
 
 ## Detection via Faster RCNN with ResNet-101 backbone:
-
 - This ReadMe contains high-level info on Detection model, for in-depth information, go to the **Detection-Faster-RCNN** directory and take a look at the ReadMe in that folder. 
 
 **Experiment 1:**
-
 - Data distribution:
     - **Train**: train_annotations
     - **Val**: cis_val_annotations
@@ -39,7 +37,6 @@
 
 
 **Experiment 2:**
-
 - Data distribution:
     - **Train**: train_annotations
     - **Val**: trans_val_annotations
@@ -50,11 +47,9 @@
 ## Detection via Faster RCNN with  Inception-Resnet-V2 backbone:
 
 **Experiment 3:**
-
 - Data distribution: same as **Experiment 1**
 
 **Experiment 4:**
-
 - Data distribution: same as **Experiment 2**
 
 ## Detection via YOLOv5 single-stage detector:
