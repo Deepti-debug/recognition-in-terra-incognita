@@ -1,5 +1,3 @@
 This folder has an exported model with the name "my_model" that can be found in the given links:
 
 Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EuG6Vwln6uNOoCiKON71JxIB4Flt2RRxe69GJgvPNoBIxw?e=mM2cQ3 
-
-(If you have trouble in opening the link, use incognito mode and then try again)
