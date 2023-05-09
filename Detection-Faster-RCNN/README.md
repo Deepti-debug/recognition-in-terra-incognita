@@ -49,7 +49,6 @@
 - Here is the screenshot of all kinds of loss calculated till 3000 iterations:
     <img src="./resouce_imgs/exp1_training_logs_loss.png" width="1000">
 <br />
-
 - Here is the learning rate and steps-per-sec logs throughout all iterations: <br />
     <img src="./resouce_imgs/exp1_training_logs.png" width="500">
 <br />
@@ -69,11 +68,11 @@
     ```
     tensorboard --logdir=models/my_faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8/eval/events.out.tfevents.1683552233.gnode022.21884.0.v2
     ```
+
 #### Evaluation Log Result
 - Here is the screenshot of the model evaluation i.e., mAP@0.5IOU:
     <img src="./resouce_imgs/exp1_eval.png" width="1000">
-<br />
-The orange dot indicates the mAP value at 3000 iterations i.e., above 70%
+- The orange dot indicates the mAP value at 3000 iterations i.e., above 70%
 
 ## Resources
 - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#
