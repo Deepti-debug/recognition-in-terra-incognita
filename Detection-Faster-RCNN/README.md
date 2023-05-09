@@ -92,3 +92,21 @@ _ In our case, the animal is correctly predicted as class 10, i.e., Rabbit.
 
 ## Resources
 - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#
+
+### Experiment 3:
+- Model: Faster RCNN with Inception-ResNet-v2 backbone
+- Data distribution:
+    - **Train**: train_annotations
+    - **Val**: cis_val_annotations
+    - **Test**: cis_test_annotations
+- Motive of experiment: To see, how well the model performs on similar data distribution
+
+- Root folder:   `exp_3_detect_cis_val_inception_resnet-v2`
+
+- All the steps of training and evaluation are similar to Experiment 1. The only difference is the model chosen for training.
+
+- #### Training Log Result
+- Once, we run the tensorboard command, we can visualize the training logs at local host: `http://localhost:6006/`
+- Here is the screenshot of all kinds of loss calculated till 5000 iterations:
+    <img src="./resouce_imgs/exp_3_train_log_loss.png" width="1000">
+<br />

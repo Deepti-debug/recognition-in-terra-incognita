@@ -1,0 +1,9 @@
+Each of the folders have many images. Because the images used in this Experiment-3 is same as the images used in Experiment-1, all of these images can be found in the given links:
+
+cis_test_annotations.zip
+cis_val_annotations.zip
+train_annotations.zip
+
+Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EuG6Vwln6uNOoCiKON71JxIBkVH5KKPIWyreGnY-A11HZw?e=MZaMqw 
+
+(If you have trouble in opening the link, use incognito mode and then try again)
