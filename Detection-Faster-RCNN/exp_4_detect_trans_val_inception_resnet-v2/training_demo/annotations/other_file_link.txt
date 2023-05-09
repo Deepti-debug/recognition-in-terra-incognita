@@ -1,5 +1,9 @@
-This folder has an exported model with the name "my_model" that can be found in the given links:
- 
+This folder has two more files that are the same files used in Experiment-2 and thus can be found in the given links:
+
+Files:
+cis_val_annotations.record
+train_annotations.record
+
 Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EoA23R5hz8ZEp7SvoIae0bwBPGra3fxfbuqs7TIkw0MHWQ?e=Uakkah
 
 (If you have trouble in opening the link, use incognito mode and then try again)

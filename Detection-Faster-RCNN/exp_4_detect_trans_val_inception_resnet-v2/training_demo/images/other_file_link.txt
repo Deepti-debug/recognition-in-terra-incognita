@@ -1,8 +1,8 @@
-Each of the folders have many images. All of them can be found in the given links:
+Each of the folders have many images. Because the images used in this Experiment-4 is same as the images used in Experiment-2, all of these images can be found in the given links:
 
 trans_test_annotations.zip
 trans_val_annotations.zip
-trans_annotations.zip
+train_annotations.zip
 
 Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EoA23R5hz8ZEp7SvoIae0bwBPGra3fxfbuqs7TIkw0MHWQ?e=Uakkah
 

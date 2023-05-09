@@ -1,0 +1,5 @@
+This folder has the pre-trained model that we used for training with the name "faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8" that can be found in the given links:
+
+Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EnqrwVHbit1ApG0WRgEPSSYBQo46g0kFYFAEeK86Pg9Sug?e=uzyaxy 
+
+(If you have trouble in opening the link, use incognito mode and then try again)

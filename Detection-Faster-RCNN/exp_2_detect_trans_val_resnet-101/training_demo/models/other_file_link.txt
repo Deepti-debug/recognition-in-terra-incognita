@@ -1,5 +1,5 @@
-This folder has the trained model with the name "my_faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8" that can be found in the given links:
+This folder has the trained model with the name "my_faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8" that can be found in the given links:
 
-Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EoA23R5hz8ZEp7SvoIae0bwBB44UXy9JqL9kUhbio_9BwA?e=tRg2Gs  
+Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EoA23R5hz8ZEp7SvoIae0bwBPGra3fxfbuqs7TIkw0MHWQ?e=Uakkah
 
-
+(If you have trouble in opening the link, use incognito mode and then try again)

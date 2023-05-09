@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <annotation>
-       <folder>cis_test_annotations</folder>
-       <filename>5a0affdf-23d2-11e8-a6a3-ec086b02610b.jpg</filename>
-       <path>./images/cis_test_annotations/5a0affdf-23d2-11e8-a6a3-ec086b02610b.jpg</path>
+       <folder>trans_test_annotations</folder>
+       <filename>5a0b00a0-23d2-11e8-a6a3-ec086b02610b.jpg</filename>
+       <path>./images/trans_test_annotations/5a0b00a0-23d2-11e8-a6a3-ec086b02610b.jpg</path>
        <source>
               <database>Unknown</database>
        </source>
@@ -13,15 +13,15 @@
        </size>
        <segmented>0</segmented>
        <object>
-              <name>10</name>
+              <name>3</name>
               <pose>Unspecified</pose>
               <truncated>0</truncated>
               <difficult>0</difficult>
               <bndbox>
-                     <xmin>1361</xmin>
-                     <ymin>834</ymin>
-                     <xmax>1509</xmax>
-                     <ymax>1051</ymax>
+                     <xmin>151</xmin>
+                     <ymin>81</ymin>
+                     <xmax>2032</xmax>
+                     <ymax>1492</ymax>
               </bndbox>
        </object>
 </annotation>
