@@ -2,4 +2,5 @@ This folder has the pre-trained model that we used with the name 'faster_rcnn_re
 
 Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EuG6Vwln6uNOoCiKON71JxIB4Flt2RRxe69GJgvPNoBIxw?e=mM2cQ3 
 
-(If you have trouble in opening the link, use incognito mode and then try again)
+The model has been downloaded from the 'Tensorflow 2 Detection Model Zoo':
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
