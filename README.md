@@ -80,5 +80,6 @@
 
 
 ## Resources
+- Dataset utilized for this work - [CCT-20](https://beerys.github.io/CaltechCameraTraps/)
 
 - [Presentation of this work](https://www.canva.com/design/DAFh8VpV6P0/WMOJE6te8_cxWD43tfvt3Q/view?utm_content=DAFh8VpV6P0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)

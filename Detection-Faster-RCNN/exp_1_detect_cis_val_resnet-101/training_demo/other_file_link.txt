@@ -1,3 +1,5 @@
 This folder has a file with all output logs. The file's name is 'op_exp_1_detect_cis_val_resnet-101.txt' and it can be found in:
 
 Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EuG6Vwln6uNOoCiKON71JxIB4Flt2RRxe69GJgvPNoBIxw?e=mM2cQ3 
+
+(If you have trouble in opening the link, use incognito mode and then try again)
