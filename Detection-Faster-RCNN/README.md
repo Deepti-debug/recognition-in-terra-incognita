@@ -1,6 +1,6 @@
 # recognition_in_terra_incognita
 
-## Detection Experiments Perfomed
+## Detection Experiments Performed
 ![summary_img](./resouce_imgs/detection-exp-summary.png)
 
 ### Experiment 1:
