@@ -43,6 +43,8 @@
     ```
     tensorboard --logdir=models/my_faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8
     ```
+- All training logs can be found in file present in root directory:
+    `logFile_exp_1_detect_cis_val_resnet-101.txt`
 
 #### Training Log Result
 - Once, we run the tensorboard command, we can visualize the training logs at local host: `http://localhost:6006/`
@@ -73,6 +75,20 @@
 - Here is the screenshot of the model evaluation i.e., mAP@0.5IOU:
     <img src="./resouce_imgs/exp1_eval.png" width="1000">
 - The orange dot indicates the mAP value at 3000 iterations i.e., above 70%
+
+#### Inference
+- To run inference on a desired image from test set. Choose an image from the folder `cis_test_annotations` and run the following command:
+    ```
+    python3 infer.py
+    ```
+- If the above command  executes successfully, an image will be saved in the root directory with corresponding detection bounding box.
+    <img src="./resouce_imgs/exp1_infer.jpg">
+
+- Verify whether the class of the animal is correctly detected by using the following mapping: <br />
+    <img src="./resouce_imgs/exp1_infer.png" width="500">
+
+_ In our case, the animal is correctly predicted as class 10, i.e., Rabbit.
+<br />
 
 ## Resources
 - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#
