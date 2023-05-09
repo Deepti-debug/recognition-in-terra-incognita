@@ -30,8 +30,7 @@
 
 - [Train the object detection model on custom data](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html)
 
-- Monitor training job progress using tensorboard
-    `tensorboard --logdir=models/my_faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8`
+- [Monitor training job progress using tensorboard](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#monitor-training-job-progress-using-tensorboard):
 
 - [Export the trained model once training completes](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#exporting-a-trained-model)
 
