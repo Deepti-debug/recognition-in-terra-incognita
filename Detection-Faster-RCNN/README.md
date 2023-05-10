@@ -107,8 +107,8 @@
 
 - #### Training Log Result
 - Once, we run the tensorboard command, we can visualize the training logs at local host: `http://localhost:6006/`
-- Here is the screenshot of all kinds of loss calculated till 2000 iterations:
-    <img src="./resouce_imgs/exp_2_train_log_loss.png" width="1000">
+- Here is the screenshot of all kinds of loss calculated till 2000+ iterations:
+    <img src="./resouce_imgs/exp_2_train_log_losses.png" width="1000">
 <br />
 
 ### Experiment 3:
