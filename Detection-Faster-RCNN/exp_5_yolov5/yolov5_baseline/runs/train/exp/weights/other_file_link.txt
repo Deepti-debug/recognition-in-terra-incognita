@@ -1,0 +1,5 @@
+This folder contains the final trained YOLOv5s model on our data. The moddel is stored as 'best.pt' and can be found in given link.
+
+Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EiAKxomIZgpFjijFVMTSooMBvNJ_y3bAr63YUew0mX5gnA?e=rfhP1t 
+
+(If you have trouble in opening the link, use incognito mode and then try again)

@@ -87,7 +87,7 @@
 - Verify whether the class of the animal is correctly detected by using the following mapping: <br />
     <img src="./resouce_imgs/exp1_infer.png" width="500">
 
-_ In our case, the animal is correctly predicted as class 10, i.e., Rabbit.
+- In our case, the animal is correctly predicted as class 10, i.e., Rabbit.
 <br />
 
 ## Resources
@@ -110,3 +110,49 @@ _ In our case, the animal is correctly predicted as class 10, i.e., Rabbit.
 - Here is the screenshot of all kinds of loss calculated till 5000 iterations:
     <img src="./resouce_imgs/exp_3_train_log_loss.png" width="1000">
 <br />
+
+### Experiment 5:
+- Model: YOLOv5 (small - 14 MB)
+- Data distribution:
+    - **Train**: train_annotations
+    - **Val**: trans_val_annotations
+    - **Test**: trans_test_annotations
+- Motive of experiment: YOLOv5 is a SOTa one-stage detector. This experiment is conducted solely to determine, how well it performs with respect to the two-stage detector>
+
+- Root folder:   `./exp_5_yolov5/yolov5_baseline`
+
+#### Create yaml file:
+- This file contains the path of the dataset used during training and all class names.
+- The yaml file for our 15 classes can be found in `./data/custom15.yaml` of root directory.
+
+#### Create Datset:
+- The training dataset needs to follow a certain directory structure. It should have a folder called `images` and corresponding folder called `lables`. The images have all the images and labels have all the text file corresponding to each image which has normalized bounding box coordinates for each class found in that image.
+
+#### Training the Model
+- For training, we are going to use transfer learning on the pre-traing yolov5s model. The pre-trained model will be automatically downloaded in this root directory as we write the training command. THe pre-trained model is stored in the drive link below, namely `yolov5s.pt`:
+    ```
+    Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EiAKxomIZgpFjijFVMTSooMBvNJ_y3bAr63YUew0mX5gnA?e=rfhP1t
+    ```
+
+- To initiate a new training run the following command in the root directory:
+    ```
+    python3 train.py --img 640 --batch 8 --epochs 200 --data ./data/custom15.yaml --weights yolov5s.pt
+    ```
+
+- All the training logs can be found in `logFile_yolov5.txt` in the root directory.
+
+- After the model has been trained, the final trained model is stored in the folder `./runs/train/exp/weights`. Also, the model snapshots and training and evaluation metrics like losses, data distribution, confusion metrics, F1 score, are stored in `./runs/train/exp/`
+
+#### Training Log Result
+- The data distribution can be visualized as follows: <br />
+    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/labels.jpg" width="1000">
+<br />
+- Here is, all kinds of loss calculated for 200 epochs: <br />
+    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/results.png" width="1000">
+<br />
+- Here is the confusion matrix: <br />
+    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/confusion_matrix.png" width="1000">
+<br />
+
+## Resources
+- https://github.com/ultralytics/yolov5 
