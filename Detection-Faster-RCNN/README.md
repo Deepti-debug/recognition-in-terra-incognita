@@ -93,6 +93,24 @@
 ## Resources
 - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#
 
+### Experiment 2:
+- Model: Faster RCNN with ResNet-101 backbone
+- Data distribution:
+    - **Train**: train_annotations
+    - **Val**: trans_val_annotations
+    - **Test**: trans_test_annotations
+- Motive of experiment: To see, how well the model performs on a different data distribution
+
+- Root folder:   `exp_2_detect_trans_val_resnet-101`
+
+- All the steps of training and evaluation are similar to Experiment 1. The only difference is the dataset chosen for training.
+
+- #### Training Log Result
+- Once, we run the tensorboard command, we can visualize the training logs at local host: `http://localhost:6006/`
+- Here is the screenshot of all kinds of loss calculated till 5000 iterations:
+    <img src="./resouce_imgs/exp_3_train_log_loss.png" width="1000">
+<br />
+
 ### Experiment 3:
 - Model: Faster RCNN with Inception-ResNet-v2 backbone
 - Data distribution:
@@ -110,6 +128,11 @@
 - Here is the screenshot of all kinds of loss calculated till 5000 iterations:
     <img src="./resouce_imgs/exp_3_train_log_loss.png" width="1000">
 <br />
+
+#### Evaluation Log Result
+- Here is the screenshot of the model evaluation i.e., mAP@0.5IOU:
+    <img src="./resouce_imgs/exp3_eval.png" width="1000">
+- The blue dot indicates the mAP value at 5000 iterations i.e., above 70%
 
 ### Experiment 5:
 - Model: YOLOv5 (small - 14 MB)
