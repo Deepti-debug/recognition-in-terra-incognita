@@ -145,14 +145,18 @@
 
 #### Training Log Result
 - The data distribution can be visualized as follows: <br />
-    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/labels.jpg" width="1000">
+    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/labels.jpg" width="800">
 <br />
 - Here is, all kinds of loss calculated for 200 epochs: <br />
-    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/results.png" width="1000">
+    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/results.png" width="800">
 <br />
 - Here is the confusion matrix: <br />
-    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/confusion_matrix.png" width="1000">
+    <img src="./exp_5_yolov5/yolov5_baseline/runs/train/exp/confusion_matrix.png" width="800">
 <br />
+- Once the training completes, the overall metrics is also printed at the end of the `logFile_yolov5.txt`. Here is the screenshot for that: <br />
+    <img src="./resouce_imgs/exp5_yolov5.png" width="800">
+<br />
+- For a thorough report of training and validation metrics, please visit this [wandB Report](https://api.wandb.ai/links/deepti-rawat/ou2xnpqj)
 
 ## Resources
 - https://github.com/ultralytics/yolov5 
