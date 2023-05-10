@@ -14,10 +14,10 @@
 - Root folder:   `exp_1_detect_cis_val_resnet-101`
 
 #### Store Images:
-- All the images of train, val and test distribution that we will use to train and evaluate this model are stored in the `images`folder of root directory.
+- All the images of train, val and test distribution that we will use to train and evaluate this model are stored in the `images` folder of root directory.
 
 #### Create Label Map:
-- TensorFlow requires a label map, which namely maps each of the used labels to an integer values. This label map is used both by the training and detection processes.
+- TensorFlow requires a label map, which maps each of the used labels to an integer values. This label map is used both by the training and detection processes.
 - The label map for our 15 classes can be found in `./annotations/label_map.pbtxt` of root directory.
 
 #### Create TensorFlow Records:
@@ -32,7 +32,7 @@
     ```    
 
 #### Training the Model
-- To initiate a new training run the following command in the root directory
+- To initiate a new training, run the following command in the root directory
     ```
     python model_main_tf2.py --model_dir=./models/my_faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8 --pipeline_config_path=models/my_faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8/pipeline.config
     ```
@@ -101,14 +101,14 @@
     - **Test**: trans_test_annotations
 - Motive of experiment: To see, how well the model performs on a different data distribution
 
-- Root folder:   `exp_2_detect_trans_val_resnet-101`
+- Root folder:`exp_2_detect_trans_val_resnet-101`
 
 - All the steps of training and evaluation are similar to Experiment 1. The only difference is the dataset chosen for training.
 
 - #### Training Log Result
 - Once, we run the tensorboard command, we can visualize the training logs at local host: `http://localhost:6006/`
-- Here is the screenshot of all kinds of loss calculated till 5000 iterations:
-    <img src="./resouce_imgs/exp_3_train_log_loss.png" width="1000">
+- Here is the screenshot of all kinds of loss calculated till 2000 iterations:
+    <img src="./resouce_imgs/exp_2_train_log_loss.png" width="1000">
 <br />
 
 ### Experiment 3:
