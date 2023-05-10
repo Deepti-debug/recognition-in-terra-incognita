@@ -1,0 +1,9 @@
+Following folders contain train images and validation images arranged in YOLO format. All the imaged can be found in given link.
+
+Folders:
+trans_val_annotations
+train_annotations
+
+Link: https://iiitaphyd-my.sharepoint.com/:f:/g/personal/deepti_rawat_research_iiit_ac_in/EiAKxomIZgpFjijFVMTSooMBvNJ_y3bAr63YUew0mX5gnA?e=rfhP1t 
+
+(If you have trouble in opening the link, use incognito mode and then try again)

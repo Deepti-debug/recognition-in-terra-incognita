@@ -1,0 +1,35 @@
+{
+    "os": "Linux-4.15.0-210-generic-x86_64-with-glibc2.27",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-05-08T12:45:49.769958",
+    "startedAt": "2023-05-08T12:45:46.275367",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 3,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "8",
+        "--epochs",
+        "200",
+        "--data",
+        "./data/custom15.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "/home/sandeep.nagar/deepti/exp_5_yolov5/yolov5_baseline/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "4db6757ef9d43f49a780ff29deb06b28e96fbe84"
+    },
+    "email": null,
+    "root": "/home/sandeep.nagar/deepti/exp_5_yolov5/yolov5_baseline",
+    "host": "gnode068",
+    "username": "sandeep.nagar",
+    "executable": "/home/sandeep.nagar/anaconda3/bin/python3"
+}

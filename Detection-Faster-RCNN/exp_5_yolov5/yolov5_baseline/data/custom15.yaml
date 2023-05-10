@@ -1,0 +1,24 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: ../datasets/coco128  # dataset root dir
+train: ../train_annotations/images  # train images (relative to 'path') 128 images
+val: ../trans_val_annotations/images  # val images (relative to 'path') 128 images
+#test: ../../dataset/test.txt # test images (optional)
+
+# Classes
+names:
+  0: 1
+  1: 3
+  2: 5
+  3: 6
+  4: 7
+  5: 8
+  6: 9
+  7: 10
+  8: 11
+  9: 16
+  10: 21
+  11: 33
+  12: 34
+  13: 51
+  14: 99
+
