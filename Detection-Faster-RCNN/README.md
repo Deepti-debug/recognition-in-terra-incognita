@@ -134,6 +134,24 @@
     <img src="./resouce_imgs/exp3_eval.png" width="1000">
 - The blue dot indicates the mAP value at 5000 iterations i.e., above 70%
 
+### Experiment 4:
+- Model: Faster RCNN with Inception-ResNet-v2 backbone
+- Data distribution:
+    - **Train**: train_annotations
+    - **Val**: trans_val_annotations
+    - **Test**: trans_test_annotations
+- Motive of experiment: To see, how well the model performs on different data distribution
+
+- Root folder:   `exp_4_detect_trans_val_inception_resnet-v2`
+
+- All the steps of training and evaluation are similar to Experiment 2. The only difference is the model chosen for training.
+
+- #### Training Log Result
+- Once, we run the tensorboard command, we can visualize the training logs at local host: `http://localhost:6006/`
+- Here is the screenshot of all kinds of loss calculated till 3000 + iterations:
+    <img src="./resouce_imgs/exp4_train_log_losses.png" width="1000">
+<br />
+
 ### Experiment 5:
 - Model: YOLOv5 (small - 14 MB)
 - Data distribution:
