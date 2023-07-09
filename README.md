@@ -1,4 +1,7 @@
 # recognition_in_terra_incognita
+This team Project was a requirement towards the successful completion of coursework on SMAI-403 (Statistical Methods in AI), 2023 (IIIT-H)
+
+In this project we are reproducing the work "Recognition in Terra Incognita" and also proposing advancements on top of that.
 
 ## Classification via Inception-v3
 
